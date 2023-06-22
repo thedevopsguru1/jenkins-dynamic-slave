@@ -7,7 +7,7 @@
 #### 4- Go to jenkins master url and install ec2 plugin, use ec2 instance to obtain credentials(check it)
 #### 5- Go to manage jenkins , configure system, then add new cloud , amazon ec2 ,select proper region,  
 #### add ec2 key pair private ( add it by cat private key and paste there),test connection, Add ami id ( same region),   
-#### instance type, security group names=sg_slave, remote FS root=/home/ec2-user, remote user=ec2-user, label it whatever you want, 
+#### instance type, security group names=sg_slave, remote FS root=/home/ec2-user ( centos ) , remote user=ec2-user, label it whatever you want, 
 #### usage= only build with matching label, idle=10 (minutes).
 ####  Then click on advance, go to associate public ip and check it, then finally save it.
 #### 6- Create a new job with the label.
