@@ -21,6 +21,9 @@
 ![image](https://github.com/thedevopsguru1/jenkins-dynamic-slave/assets/126810742/40c3293b-b4f4-4dac-b4a1-23abfa69efe1)
 ![image](https://github.com/thedevopsguru1/jenkins-dynamic-slave/assets/126810742/61220b70-2d5c-44e6-8833-f6c602619701)
 ![image](https://github.com/thedevopsguru1/jenkins-dynamic-slave/assets/126810742/27179a39-152f-4c23-8ef5-1522ea00d9ef)
+##### With no verification
 ![image](https://github.com/thedevopsguru1/jenkins-dynamic-slave/assets/126810742/c55a12f2-85f2-44fb-a414-6c843d85f1ce)
+##### With verification
+![image](https://github.com/thedevopsguru1/jenkins-dynamic-slave/assets/126810742/93634376-2c34-45ff-a4af-30bf7ce8c1b0)
 
 #### 6- Create a new job with the label.
