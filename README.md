@@ -2,8 +2,10 @@
 #### 1- Create AWS role with  amazonec2fullaccess permissions
 #### 2- Add the role to the ec2 hosting jenkins
 #### 3- Create Sg for Slave instance an master
+### Slave
 ##### A-  inbound : ssh to jenkins master sg/
 #####      outbound:  all traffics
+### Master
 ##### B- inbound: ssh anywhere & HTTP , https from lb-sg
 #####    outbound: all traffics
 #### 4- Go to jenkins master url and install ec2 plugin, use ec2 instance to obtain credentials(check it)
