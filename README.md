@@ -1,9 +1,11 @@
 # jenkins-dynamic-slave
 #### 1- Create AWS role with  amazonec2fullaccess permissions
 #### 2- Add the role to the ec2 hosting jenkins
-#### 3- Create Sg for Slave instance
-##### inbound : ssh to jenkins master sg/
-##### outbound:  all traffics
+#### 3- Create Sg for Slave instance an master
+##### A-  inbound : ssh to jenkins master sg/
+#####      outbound:  all traffics
+##### B- inbound: ssh anywhere & HTTP , https from lb-sg
+#####    outbound: all traffics
 #### 4- Go to jenkins master url and install ec2 plugin, use ec2 instance to obtain credentials(check it)
 #### 5- Go to manage jenkins , configure system, then add new cloud , amazon ec2 ,select proper region, 
 ![image](https://github.com/thedevopsguru1/jenkins-dynamic-slave/assets/126810742/57ead7b1-de38-4ea9-980a-efcdbb04aa7b)
